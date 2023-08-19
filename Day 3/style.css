@@ -1,0 +1,177 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-bar {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    position: sticky;
+}
+
+.main-logo {
+    height: 40px;
+    color: red;
+}
+
+.search-bar {
+    border-radius: 50px;
+    padding: 15px;
+    border: 1px solid lightgray;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.search {
+    border: none;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.side-bar {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 80px;
+    padding: 10px;
+    border-radius: 18px;
+    display: flex;
+    gap: 30px;
+}
+
+.search-btn {
+    border: none;
+    padding: 6px 8px;
+    color: white;
+    background-color: rgb(255, 11, 88);
+    border-radius: 50%;
+}
+
+.package-list{
+    margin: 30px 0px 0px 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.list-logo{
+    height: 50px;
+    width:50px;
+}
+
+.list a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.scroll-btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.filt-btn{
+    padding: 15px 20px;
+    width: 120px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.filter-img{
+    height: 18px;
+}
+
+.search-price{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-filer{
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 500px;
+}
+
+.price{
+    border: none;
+    width: 250px;
+    padding: 20px;
+}
+
+.toggle-btn{
+    height: 80px;
+    color: rgb(168, 165, 165);
+}
+
+.card{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    color: rgb(118, 116, 116);
+    position: relative;
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 0;
+}
+
+.price-font{
+    color: black;
+}
+
+.heart{
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+}
